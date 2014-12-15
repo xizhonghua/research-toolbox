@@ -2,13 +2,22 @@
 
 #### Packages
 ```latex
-\usepackage{graphics} % includegraphics
+\usepackage{graphics} % figure / includegraphics
 \usepackage{subfigure} % subfigure
 ```
 
 #### Syntax
 ```latex
 \includegraphics[attr1=val1, attr2=val2, ..., attrn=valn]{imagename}
+```
+
+#### Figure
+```latex
+\begin{figure}[th]
+\centering
+\includegraphics[width=0.34\textwidth]{FIGS/fig.pdf}\label{fig:your_fig_label}}
+\caption{figure_caption}
+\end{figure}
 ```
 
 #### Examples
