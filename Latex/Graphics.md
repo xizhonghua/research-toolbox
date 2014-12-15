@@ -1,11 +1,17 @@
 ## Latex Graphics
 
+#### Packages
+```latex
+\usepackage{graphics} % includegraphics
+\usepackage{subfigure} % subfigure
+```
+
 #### Syntax
 ```latex
 \includegraphics[attr1=val1, attr2=val2, ..., attrn=valn]{imagename}
 ```
 
-### Examples
+#### Examples
 ```latex
 % width = 34% of the text width
 \includegraphics[width=0.34\textwidth]{FIGS/figlp.pdf} 
