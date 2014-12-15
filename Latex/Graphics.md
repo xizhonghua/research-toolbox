@@ -17,7 +17,10 @@
 \includegraphics[width=0.34\textwidth]{FIGS/figlp.pdf} 
 
 % height = 40% text width trim=left bottom right top, clip should set to true
-\includegraphics[height=0.4\textwidth,trim=45mm 105mm 45mm 45mm, clip=true]{FIGS/articulated.pdf} 
+\includegraphics[height=0.4\textwidth,trim=45mm 105mm 45mm 45mm, clip=true]{FIGS/articulated.pdf}
+
+% subfigure with caption and label
+\subfigure[env6]{\includegraphics[height=0.28\textwidth]{FIGs/env6-2.pdf}\label{fig:intro-env6poly}}
 ```
 
 #### General References
