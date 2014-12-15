@@ -4,6 +4,7 @@
 ```latex
 \usepackage{graphics} % figure / includegraphics
 \usepackage{subfigure} % subfigure
+\usepackage{grffile} % if filename contains dot
 ```
 
 #### Syntax
@@ -30,6 +31,12 @@
 
 % subfigure with caption and label
 \subfigure[env6]{\includegraphics[height=0.28\textwidth]{FIGs/env6-2.pdf}\label{fig:intro-env6poly}}
+```
+
+**filename contains dot ('.')**
+```latex
+\usepackage{grffile} % if filename contains dot
+\includegraphics{figures/miura_3_3_me_0.1.def.eps} 
 ```
 
 #### General References
