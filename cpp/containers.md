@@ -29,3 +29,11 @@ for(auto v : a)
 // 4
 // 5
 ```
+
+* insertion
+```C++
+vector<int> a = {1,3,5};
+// add back
+a.push_back(7); // a = {1,3,5,7}
+```
+
